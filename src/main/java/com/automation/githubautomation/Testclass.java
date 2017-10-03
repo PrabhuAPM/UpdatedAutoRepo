@@ -9,7 +9,6 @@ public class Testclass {
 	@Test
 	public void testmethod()
 	{
-		
 		System.setProperty("webdriver.chrome.driver", "chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("http://automationpractice.com/index.php");
